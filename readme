@@ -1,0 +1,14 @@
+Ensure all excel files and the script are in the same folder.
+The name of the timetable excel sheet should be timetable.xls
+The name of the input excel sheet with the student registration details should be student.xls
+
+In each excel sheet, the first line should contain the column headings followed by the data. Use the existing example excel files as a reference.
+
+Right click and click open in terminal.
+
+To run the script enter:
+
+	python clashes.py > out.txt
+ 
+The list of all clashes are stored in a file out.txt which automatically gets created in the same folder. If it already exists, the file is overwritten.
+
