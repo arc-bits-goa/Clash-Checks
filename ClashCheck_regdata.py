@@ -155,8 +155,8 @@ elif len(sys.argv)==3:
 	reg_file=sys.argv[2]
 	out_file="Conflict.xlsx"
 else:
-	timetable_file="timetable_Sem2_18-19.xls"
-	reg_file="regdata.xls"
+	timetable_file="timetable.xlsx"
+	reg_file="regdata.xlsx"
 	out_file="Conflict.xlsx"
 	
 if os.path.isfile(out_file):os.remove(out_file)	
